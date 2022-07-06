@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.header__logo {
+  width: 25px;
+  height: 25px;
+}
+.header__heading {
+  color: #fff;
+  margin-left: 5px;
+  font-size: 18px;
+  padding-top: 6px;
+}
+.header__avatar {
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  cursor: pointer;
+}

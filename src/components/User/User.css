@@ -1,0 +1,171 @@
+.content__contentTitle {
+  font-weight: 600;
+  font-size: 20px;
+}
+.content__wrapperActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.content__actions {
+}
+.content__filterTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.content__wrapperActions .content__btnAdd {
+  border-radius: 4px;
+  background-color: #2a4265;
+  margin-left: 15px;
+  border: none;
+}
+.content__table .ant-table-cell::before {
+  display: none;
+}
+.content__table table thead.ant-table-thead tr th {
+  background-color: #fff;
+}
+.content__table table tbody.ant-table-tbody tr:nth-child(2n + 1) {
+  background-color: #fafafa;
+}
+.content__table table tbody.ant-table-tbody tr td a {
+  color: #000;
+}
+.content__table table tbody.ant-table-tbody tr td button {
+  border-radius: 4px;
+  background-color: #2a4265;
+  border: none;
+  color: #fff;
+  padding: 4px;
+  width: 100px;
+}
+.content__table
+  table
+  tbody.ant-table-tbody
+  tr
+  td
+  button.content__btnStatus--success {
+  background-color: #08a101;
+}
+.content__table
+  table
+  tbody.ant-table-tbody
+  tr
+  td
+  button.content__btnStatus--reject {
+  background-color: #df0002;
+}
+.content__table .ant-table-pagination li,
+.content__table .ant-table-pagination li button {
+  border-radius: 10px;
+}
+.content__table .ant-table-pagination li a {
+  font-weight: 600;
+}
+.content__table .ant-table-pagination li.ant-pagination-item-active {
+  background-color: #2a4265;
+  border: none;
+}
+.content__table .ant-table-pagination li.ant-pagination-item-active a {
+  color: #fff;
+}
+.content__addAnimal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form#basic3 {
+  margin-top: 20px;
+}
+form#basic2.content__wrapAnimal,
+form#basic3.content__wrapAnimal {
+  background-color: #c6c3c3;
+  padding: 10px;
+  border-radius: 2px;
+}
+form#basic2.content__wrapAnimal .ant-select.ant-select-in-form-item,
+form#basic2.content__wrapAnimal .ant-input-number,
+form#basic3.content__wrapAnimal .ant-select.ant-select-in-form-item,
+form#basic3.content__wrapAnimal .ant-input-number {
+  width: 120px;
+}
+.content__btnAdd.content__btnAdd--gray {
+  background-color: #a29e9e;
+  border: none;
+  border-radius: 15px;
+  color: #000;
+}
+.content__actionBtn {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
+}
+.content__actionBtn span {
+  cursor: pointer;
+}
+.content__infoUser {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.content__infoUser span span {
+  margin-left: 20px;
+}
+.content__subTitle {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size:20px;
+}
+.content__editInfoUser {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.content__editInfoUser input {
+  width: 300px;
+}
+.content__editInfoUser .content__editInfoUserLabel {
+  font-weight: 600;
+  margin-right: 20px;
+}
+.content__editWrapper {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.content__editInfoUser .content__editWrapper:nth-child(2n) {
+  margin-left: 40px;
+}
+.content__modalDelete {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.content__modalDelete svg {
+  color: orange;
+  font-size: 100px;
+}
+.content__modalDelete p {
+  font-weight: 600;
+}
+.ant-modal-footer {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-modal-footer button {
+  width: 120px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.ant-modal-footer button.ant-btn-primary {
+  background-color: #2a4265;
+  border: none;
+  color: #fff;
+}
+.ant-modal-footer button span {
+  font-weight: 600;
+}

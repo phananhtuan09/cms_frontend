@@ -1,0 +1,30 @@
+.addlomo1 .ant-select-selector {
+  margin-bottom: 10px;
+}
+.addlomo1 .ant-input-number-in-form-item {
+  margin-bottom: 10px;
+}
+.content__infoBtn--Up {
+  color: #4cbb17;
+  font-weight: 600;
+}
+.content__infoBtn--Down {
+  color: #ee4b2b;
+  font-weight: 600;
+}
+.modal__infoAnimal .ant-modal-title {
+  font-size: 22px;
+}
+.ant-modal-content {
+  font-weight: 600;
+}
+.modal__infoAnimal .ant-modal-footer button.ant-btn-primary {
+  display: none;
+}
+.modal__infoAnimal .ant-modal-footer button.ant-btn-default {
+  background-color: #2a4265;
+  border: none;
+  color: #fff;
+  width: 230px;
+  height: 35px;
+}
